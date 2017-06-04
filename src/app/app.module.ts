@@ -9,6 +9,7 @@ import { UploadComponent } from './upload/upload.component';
 import { Ng2UploaderModule } from 'ng2-uploader';
 import { Ng2FileUploadComponent } from './ng2-file-upload/ng2-file-upload.component';
 import { FileSelectDirective } from 'ng2-file-upload';
+import { NativeUploadComponent } from './native-upload/native-upload.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { FileSelectDirective } from 'ng2-file-upload';
     AppComponent,
     UploadComponent,
     Ng2FileUploadComponent,
-    FileSelectDirective
+    FileSelectDirective,
+    NativeUploadComponent
   ],
   imports: [
     BrowserModule,
